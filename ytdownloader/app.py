@@ -105,7 +105,7 @@ class MainWindow(QtWidgets.QMainWindow):
             sys.exit()
 
     def get_author_info(self):
-        QtWidgets.QMessageBox.information(self, "Autor", "O ty kurwo wścibska. Wypierdalaj mi stąd")
+        QtWidgets.QMessageBox.information(self, "Autor", "Jakub Tomala")
 
     def save_video(self):
         try:
